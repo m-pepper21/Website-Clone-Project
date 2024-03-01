@@ -1,0 +1,350 @@
+@font-face {
+  font-family: "WWF";
+  src: url("Homework/Week 1/wwf.ttf");
+}
+* {
+  font-family: "WWF", Arial, sans-serif;
+}
+
+.block-parentsite {
+  background-color: black;
+  width: 100%;
+  min-height: 67px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.block-parentsite .menu-item a {
+  margin-top: 10px;
+  font-weight: bolder;
+}
+
+.menu-container {
+  align-items: flex-start;
+}
+.topmenu-item {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px 10px 10px 10px;
+}
+.topmenu-item a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 10px 10px 10px;
+}
+.topmenu-item img {
+  width: 40px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  min-height: 67px;
+  padding: 0.75rem;
+}
+.click-menu {
+  display: flex;
+  list-style: none;
+}
+.click-menu li {
+  padding: 1rem;
+  font-family: "Arial Narrow";
+  font-stretch: condensed;
+  font-weight: bold;
+}
+
+.menu-toggle {
+  display: flex;
+  background-color: white;
+  border: none;
+  order: 3;
+  width: auto;
+  padding: 14px 18px 14px 40px;
+  color: black;
+  font-size: 1.125rem;
+  cursor: pointer;
+  top: 50%;
+}
+
+.menu-toggle img {
+  width: 20px;
+  margin: 1px 5px 0px;
+}
+
+.container a {
+  text-decoration: none;
+  color: black;
+  padding: 0 0.3rem;
+}
+
+.menu-item {
+  float: left;
+  text-align: center;
+  font-family: "Arial Narrow";
+  font-stretch: condensed;
+  font-weight: bold;
+}
+
+.menu-item.menu-item1 {
+  background-color: rgba(225, 191, 30, 0.8);
+  color: black;
+  list-style: none;
+  padding: 14px 19px 17px;
+}
+.menu-item.menu-item2 {
+  background-color: #f89834;
+  color: black;
+  list-style: none;
+  padding: 14px 19px 17px;
+}
+.menu-item.menu-item3 {
+  background-color: #f36c42;
+  color: black;
+  list-style: none;
+  padding: 14px 19px 17px;
+}
+
+.wwf-headline {
+  background-color: black;
+  color: white;
+  display: inline-block;
+  margin-bottom: 1.5rem;
+  padding: 0.5rem;
+  line-height: 1.15;
+  font-stretch: condensed;
+}
+
+.containers {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1.5rem;
+  gap: 20px;
+}
+
+.card-content {
+  display: flex;
+  padding: 1.5rem;
+  align-content: center;
+  cursor: pointer;
+  background: transparent;
+  font-weight: bold;
+  font-stretch: narrower;
+}
+
+.card-border {
+  border-bottom: 5px solid #ffbf1e;
+}
+.card {
+  margin-right: auto;
+  margin-left: auto;
+  border: 1px solid grey;
+}
+
+.paragraph {
+  display: flex;
+  padding-bottom: 3rem;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-left: 3rem;
+}
+.paragraph-content {
+  text-align: justify;
+  margin-right: 15rem;
+  padding: 1rem;
+}
+.paragraph img {
+  width: 400px;
+  vertical-align: bottom;
+}
+.member {
+  background-color: #f36c42;
+  border-color: #f36c42;
+  color: black;
+  list-style: none;
+  padding: 14px 19px 17px;
+  text-align: center;
+  font-family: "Arial Narrow";
+  font-stretch: condensed;
+  font-weight: bold;
+}
+.donations-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.donation-card1 {
+  background-color: #74c050;
+  padding: 1rem 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  flex-grow: 1;
+  text-align: right;
+}
+.donation-card2 {
+  background-color: #00b9ad;
+  padding: 1rem 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  flex-grow: 1;
+}
+.logos_container {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-right: 0;
+  gap: 70px;
+  padding-top: 20px;
+}
+
+.statement {
+  color: white;
+  background-color: black;
+  line-height: 1;
+  display: inline-block;
+  padding: 0.5rem;
+  font-stretch: condensed;
+}
+
+.footer2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  gap: 15px;
+}
+.footer2 a {
+  text-decoration: none;
+  color: black;
+}
+.copyright {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: grey;
+}
+
+/* Effects*/
+
+.topmenu-item a:hover {
+  color: #f89834;
+}
+.menu-item:hover {
+  background-color: black;
+  color: white;
+}
+
+.menu-toggle:hover {
+  color: grey;
+}
+.click-menu li:hover {
+  color: grey;
+}
+.container a:hover {
+  color: grey;
+}
+.member:hover {
+  background-color: black;
+  border-color: black;
+  color: white;
+}
+.footer2 a:hover {
+  color: grey;
+}
+.card:hover {
+  box-shadow: 0px 4px 36px 0px grey;
+}
+
+.donation-card1:hover {
+  transform: scaleY(1.1);
+}
+.donation-card2:hover {
+  transform: scaleY(1.1);
+}
+
+/* Media for Tablets */
+@media (max-width: 800px) {
+  body {
+    background-color: rgb(166, 197, 187);
+  }
+  .menu-toggle {
+    background-color: rgb(166, 197, 187);
+  }
+
+  .card-content,
+  .card {
+    background-color: rgb(185, 224, 224);
+  }
+  .paragraph {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+  }
+  .paragraph-content {
+    width: 100%;
+    text-align: center;
+  }
+  .paragraph img {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .desktop {
+    display: none;
+  }
+
+  .tablet {
+    display: flex;
+  }
+}
+
+/*  Media for Phone */
+@media (max-width: 500px) {
+  body {
+    background-color: teal;
+    font-size: smaller;
+  }
+  .menu-toggle {
+    background-color: teal;
+  }
+
+  .card-content,
+  .card {
+    background-color: rgb(255, 230, 230);
+  }
+
+  .paragraph {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+  }
+  .paragraph-content {
+    width: 100%;
+    text-align: center;
+  }
+  .footer2 a {
+    color: azure;
+  }
+  .copyright {
+    color: azure;
+  }
+
+  .tablet {
+    display: none;
+  }
+
+  .smartphone {
+    display: flex;
+  }
+}
